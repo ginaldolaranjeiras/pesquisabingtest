@@ -1,0 +1,71 @@
+[
+  {
+    "line": 3,
+    "elements": [
+      {
+        "line": 5,
+        "name": "Deve retornar uma pesquisa",
+        "description": "",
+        "id": "nova-pesquisa;deve-retornar-uma-pesquisa",
+        "type": "scenario",
+        "keyword": "Cenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 5155891600,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "que eu estou na página inicial do bing",
+            "match": {
+              "location": "PesquisaStep.que_eu_estou_na_página_inicial_do_bing()"
+            },
+            "keyword": "Dado "
+          },
+          {
+            "result": {
+              "duration": 111051600,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "eu informo o termo",
+            "match": {
+              "location": "PesquisaStep.eu_informo_o_termo()"
+            },
+            "keyword": "Quando "
+          },
+          {
+            "result": {
+              "duration": 754392500,
+              "status": "passed"
+            },
+            "line": 9,
+            "name": "clico em ENTER",
+            "match": {
+              "location": "PesquisaStep.clico_em_ENTER()"
+            },
+            "keyword": "E "
+          },
+          {
+            "result": {
+              "duration": 8764400,
+              "status": "passed"
+            },
+            "line": 10,
+            "name": "sou direcionado para o resultado da busca",
+            "match": {
+              "location": "PesquisaStep.sou_direcionado_para_o_resultado_da_busca()"
+            },
+            "keyword": "Então "
+          }
+        ]
+      }
+    ],
+    "name": "Nova pesquisa",
+    "description": "",
+    "id": "nova-pesquisa",
+    "keyword": "Funcionalidade",
+    "uri": "src/main/resources/pesquisa/novapesquisa.feature",
+    "tags": []
+  }
+]
